@@ -8,14 +8,14 @@ const Select = (props: { title: string }) => {
             id="HeadlineAct"
             className="mt-1.5 w-full text-gray-700"
         >
-            <option value="">Please select</option>
-            <option value="JM">John Mayer</option>
-            <option value="SRV">Stevie Ray Vaughn</option>
-            <option value="JH">Jimi Hendrix</option>
-            <option value="BBK">B.B King</option>
-            <option value="AK">Albert King</option>
-            <option value="BG">Buddy Guy</option>
-            <option value="EC">Eric Clapton</option>
+            <option value="">Hà Nội</option>
+            <option value="JM">Hải Phòng</option>
+            <option value="SRV">Vũng Tàu</option>
+            <option value="JH">Sài Gòn</option>
+            <option value="BBK">Đà Lạt</option>
+            <option value="AK">Bắc Yên</option>
+            <option value="BG">Hà Giang</option>
+            <option value="EC">Lạng Sơn</option>
         </select>
     </div>
 }

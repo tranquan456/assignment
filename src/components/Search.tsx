@@ -24,11 +24,12 @@ const SeachBaseDetail = () => {
         </ul>
         <hr />
         <form action="" className=" form p-4 m-6 flex gap-4 ">          
-                <i className="fa-solid fa-circle" /><Select title="Nơi xuất phát" />
-                <i className="fa-solid fa-location-dot" />  <Select title="Nơi đến" />
-                <i className="fa-solid fa-calendar-days" />  <Date title="Ngày đi" />
-                <i className="fa-solid fa-plus" style={{ color: " #4688f4;" }}></i>  <Date title="Thêm ngày về" />
-                <div className="bg-[#FFC700] w-32 mt-3 frounded-md bg-gray-100 px-6 py-2.5 text-sm font-medium text-balck">
+                
+        <i className="fa-solid fa-circle text-[#2474E5] " /> <Select  title="Nơi xuất phát" />
+                <i className="fa-solid fa-location-dot text-[#FF0000] " />  <Select title="Nơi đến" />
+                <i className="fa-solid fa-calendar-days text-[#2474E5]" />  <Date title="Ngày đi" />
+                <i className="fa-solid fa-plus text-[#2474E5]" ></i>  <Date title="Thêm ngày về" />
+                <div className="bg-[#FFC700] rounded-md w-32 mt-3 frounded-md px-6 py-2.5 text-sm font-medium text-balck">
                 <Button title="Tìm kiếm"/>
                 </div>
         </form>
