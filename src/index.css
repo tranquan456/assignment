@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-seach ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+.form-seach li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.form-seach a {
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: #f6ee0c;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img {
+  position: relative;
+}
+
+.form-text {
+  position: absolute;
+  /*đè lên và chồng chéo lên nhau*/
+  top: 23%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  /*Căn chỉnh Ngang Dọc*/
+  color: white;
+  /* Màu chữ trên overlay */
+  padding: 10px;
+  /* Khoảng cách giữa chữ và viền overlay */
+}
+
+.form-seach ul li {
+  list-style-type: none;
+  /*bỏ dấu chấm đầu câu*/
+}
+
+.form-seach {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  width: 75%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 20px;
+  /* Màu chữ trên overlay */
+  padding: 20px;
+  /* Khoảng cách giữa chữ và viền overlay */
+}
+
+.conten {
+  position: absolute;
+  top: 136.6%;
+  left: 50%;
+  width: 120%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  /* Màu chữ trên overlay */
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.conten th {
+  display: inline-block;
+  /*thành hàng ngang*/
+}
+
+.form-seach a:hover {
+  color: rgb(0, 140, 255);
+  text-decoration: underline;
+  /*gạch chân*/
+}
+
+span {
+  color: rgb(179, 172, 172);
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.seachBase {
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(171, 171, 171);
+  }
+  .seachBase a:hover {
+    color: rgb(0, 140, 255);
+    text-decoration: underline;
+    /*gạch chân*/
+  }
+  .seachBase ul li {
+    padding: 10px;
+    display: inline-block;
+    /*thành hàng ngang*/
+  
+  }
