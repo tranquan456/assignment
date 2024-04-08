@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .form-seach ul li {
   display: inline-block;
@@ -44,12 +46,10 @@
   /* Khoảng cách giữa chữ và viền overlay */
 }
 
-.form-seach ul li {
-  list-style-type: none;
-  /*bỏ dấu chấm đầu câu*/
-}
+
 
 .form-seach {
+  margin-top: 20px;
   position: absolute;
   top: 62%;
   left: 50%;
@@ -66,7 +66,7 @@
   position: absolute;
   top: 136.6%;
   left: 50%;
-  width: 200%;
+  width: 115%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;

@@ -1,0 +1,97 @@
+{
+  "trips": [
+    {
+      "busHouseId": "2",
+      "startTime": "2024-04-07T20:20",
+      "fromStation": "Thanh Hóa",
+      "toStation": "Hải Phòng ",
+      "station": "Mỹ đình",
+      "seats": "34",
+      "price": "36",
+      "phone": "03456",
+      "id": 1
+    },
+    {
+      "busHouseId": "1",
+      "startTime": "2024-04-07T20:47",
+      "fromStation": "Hà Nội",
+      "toStation": "Hưng Yên",
+      "station": "Mỹ đình",
+      "seats": "30",
+      "price": "360",
+      "phone": "03456",
+      "id": 2
+    },
+    {
+      "busHouseId": "3",
+      "startTime": "2024-04-07T20:51",
+      "fromStation": "Thanh Hóa",
+      "toStation": "Hưng Yên",
+      "station": "Mỹ đình",
+      "seats": "99",
+      "price": "36",
+      "phone": "03456",
+      "id": 3
+    },
+    {
+      "busHouseId": "3",
+      "startTime": "2024-04-07T21:25",
+      "fromStation": "Hà Nội",
+      "toStation": "Thanh Hóa",
+      "station": "Mỹ đình",
+      "seats": "34",
+      "price": "34",
+      "phone": "03456",
+      "id": 4
+    },
+    {
+      "busHouseId": "3",
+      "startTime": "2024-04-08T08:19",
+      "fromStation": "Thanh Hóa",
+      "toStation": "Hải Phòng ",
+      "station": "Mỹ đình",
+      "seats": "35",
+      "price": "360",
+      "phone": "03456",
+      "id": 5
+    },
+    {
+      "busHouseId": "3",
+      "startTime": "2024-04-08T08:41",
+      "fromStation": "Hà Nội",
+      "toStation": "Hưng Yên",
+      "station": "Mỹ đình",
+      "seats": "34",
+      "price": "360",
+      "phone": "03456",
+      "id": 6
+    }
+  ],
+  "stations": [
+    {
+      "id": "ObjectID",
+      "name": "String",
+      "province": "String"
+    }
+  ],
+  "busHouses": [
+    {
+      "id": "2",
+      "name": "Kumho Samco",
+      "adress": "Cao tốc Long Thành - Cầu Giây",
+      "phone": "0987654321"
+    },
+    {
+      "id": "3",
+      "name": "Cao Lâm",
+      "adress": "Cao tốc Phan Thiết",
+      "phone": "0987654321"
+    }
+  ],
+  "users": [
+    {
+      "email": "quan@123",
+      "password": "12345"
+    }
+  ]
+}
