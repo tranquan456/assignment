@@ -20,7 +20,7 @@ const AddTrip = () => {
     const {
         register,
         handleSubmit,
-        watch,
+        
         formState: { errors },
     } = useForm<AddTripForm>()
     const onSubmit: SubmitHandler<AddTripForm> = async (data) => {
